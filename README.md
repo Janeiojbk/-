@@ -1,8 +1,8 @@
 # FAT磁盘模拟
 
 ```
-姓名：杨建伟
-学号：3170101209
+姓名：Maple
+学号：**********
 ```
 
 ## 一、问题描述
@@ -18,7 +18,7 @@ int clusterRead(byte&, int); //int为簇号
 int clusterWrite(byte*, int);
 ```
 
-##二、实现原理
+## 二、实现原理
 
 ### 2.1 磁盘原理
 
@@ -62,7 +62,7 @@ FDT（File Directory Table）表即为文件目录表，也称为根目录区或
 
 实际储存数据的空间
 
-##三、算法原理
+## 三、算法原理
 
 ### 3.1 列出文件目录
 
@@ -154,12 +154,12 @@ while(sectorID != -1)
   sectorID = nextSectorID
 ```
 
-##四、编译方法
+## 四、编译方法
 
 1. 直接编译运行FAT.cc
 2. 使用make命令
 
-##五、使用方法
+## 五、使用方法
 
 ```
 Options:	
